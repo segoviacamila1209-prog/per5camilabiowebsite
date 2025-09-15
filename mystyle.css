@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* CSS Document */
+a:link {
+  color: white;
+	background-color: #19162A;
+	padding: 10px 15px;
+	margin: 5px 15px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+background-color: #433B6D;
+padding: 10px 15px;
+margin: 5px 15px;
+	border-radius: 5px;
+}
+
+/* mouse over link */
+a:hover {
+  background-color: white;
+  color: #D2AFF9;
+}
+
+/* selected link */
+a:active {
+  color: #876DB2;
+}
+body {
+	background-color:#876DB2; 
+	color: #e4dfda; 
+	font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+}
+#header {
+	background-color: #19162A; 
+	color:#e4dfda; 
+	font-size: 50px; 
+	padding: 25px; 
+	text-align: center;
+}
+#nav {
+	background-color: #D2AFF9; 
+	color: #e4dfda; 
+	text-align: center; 
+	padding: 15px;
+}
+#content {
+	padding: 15px;
+}
+#footer {
+	background-color: #D2AFF9;
+	color: #e4dfda;
+	text-align: center;
+	padding: 15px;
+}
+.thirdcolumn {
+	width: 29%;
+	padding: 15px;
+	float: left;
+	margin: 10px;
+}
+.thirdcolumn:hover {
+	transform: scale(1.02);
+	transform: translateY(-5px);
+}
+
