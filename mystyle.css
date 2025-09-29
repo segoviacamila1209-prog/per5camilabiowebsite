@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 a:link {
-  color: white;
+  color: #D2AFF9;
 	background-color: #19162A;
 	padding: 10px 15px;
 	margin: 5px 15px;
@@ -11,7 +11,7 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: white;
+  color: #D2AFF9;
 background-color: #433B6D;
 padding: 10px 15px;
 margin: 5px 15px;
@@ -31,7 +31,9 @@ a:active {
 body {
 	background-color:#876DB2; 
 	color: #e4dfda; 
-	font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
 }
 #header {
 	background-color: #19162A; 
