@@ -57,14 +57,3 @@ body {
 	text-align: center;
 	padding: 15px;
 }
-.thirdcolumn {
-	width: 29%;
-	padding: 15px;
-	float: left;
-	margin: 10px;
-}
-.thirdcolumn:hover {
-	transform: scale(1.02);
-	transform: translateY(-5px);
-}
-
